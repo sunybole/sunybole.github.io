@@ -1,80 +1,32 @@
-# Basic
-title: Robotkang
-subtitle: 自留地
-description: 欢迎来到我的个人网站~
-# 头像里面的标题
-avatarTitle: RobotKang
-# 头像里面的描述
-avatarDesc: 机器人赛事/嵌入式
-url: "http://robotkang.cc"
+# This is the default format. 
+# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+# permalink: /:categories/:year/:month/:day/:title 
+permalink: /blog/:year/:month/:title.html 
+include: ['.htaccess']
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "CNAME", "Gemfile", "Gemfile.lock"]
+markdown: redcarpet
+highlights: pygments
+lsi: false
+timezone: Asia/Shanghai
+safe: false
 
-# Comment
-comment:
-    provider: duoshuo
-    duoshuo:
-     short_name: robotkang
+JB :
+  ASSET_PATH : http://zhu8.qiniudn.com/assets
+  IMAGE_PATH : http://zhu8.qiniudn.com/images
+# auto: true # deprecated
 
-# Social
-social:
-    weibo: 123456789
-    weixing: kang1390305137 
-    github: MengZheK
-    # twitter: 
-    mail: robotkang@foxmail.com
-    csdn: robotkang
-
-# 百度统计 
-# 使用博客模板请去掉或者更换 id 
-baidu:
-    id: 144d500dd9ac4a65465a14b95f3e4ade 
-
-# Google Analytics
-# 使用博客模板请去掉或者更换 id
-#ga:
-# id: UA-84134159-3   
-#  host: auto  
-
-
-# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+# Themes are encouraged to use these universal variables 
+# so be sure to set them if your theme uses them.
 #
-#
-#  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/MengZheK/kangblog.github.io
-#
-#
-# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
-
-
-permalink: /:year/:month/:title/
-# Format
-highlighter: rouge
-
-textColor: #FF0000
-
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: 
-
-# The blog button should not be removed.
-blog_button:
-    title: 博客主页
-
-# Navigation buttons in the front page.s
-nav:
-    - {title: 所有文章, description: archive, url: '/archive'}   
-    - {title: 标签, description: tags, url: '/tags'}   
-    - {title: 留言, description: liuyan, url: '/liuyan'}
-    - {title: 资源, description: ziyuan, url: '/ziyuan'}
-    - {title: 关于我, description: about, url: '/about'}
-
-          
-    
-
-# Pagination
-gems: [jekyll-paginate]
-paginate: 20
-paginate_path: "page/:num/"
-
-
-
-
-
+url: http://git.chenjun.com
+title: ChenJun(Zhu8)-浮生志
+tagline: On The Way to Philistinism...
+about: <a href="http://chenjun.com/"><strong>陈俊</strong></a>ChenJun(Zhu8)的个人网站，江苏人士，83年生人，电子产品自虐狂，<a href="http://chenjun.com/wang2/"><strong>王小波</strong></a>门下走狗，欢迎<strong>Fork</strong>本站@<a href="https://github.com/Zhu8/zhu8.github.io/fork">Github</a>。
+author:
+  name: Chen Jun(Zhu8)
+  email: zhu8.net@gmail.com
+  github: Zhu8
+  twitter: 5CJ
+  facebook: ichenjun
+  googleplus: +ChenJun
+  feedburner : Zhu8/github

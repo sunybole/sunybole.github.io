@@ -1,90 +1,35 @@
 ---
 layout: page
-title: 关于我「ABOUT ME」 
-date: 2018-01-20
+title: About Zhu8
+permalink: /about.html
+thumbnail: /img/pages/ManUtd.png
+description: Zhu8是我的网名，用了应该有14年啦，Zhu8，其名取自“猪八戒”，另一说是来自电视剧《春光灿烂猪八戒》中的小猪八。来自江苏金坛，北漂三年后，现定居南京。
+group: listable
+shares: true
+comments: no
+sitemap:
+  priority: 1
+  changefreq: weekly
+  lastmod: 2014-07-05
 ---
-<a href="/photos/" target="_blank"><img src="http://omjh2j5h3.bkt.clouddn.com/%E5%A4%A9%E7%AD%96.jpg" width="150" height="150" alt="photos"/></a>
 
-<p>
-一个刚刚走出象牙塔的 Maker「未更新」<a href="{{ site.baseurl }}/jianli.pdf" target="_blank"> 「我的简历」 </a>    
+<img src="{{ site.JB.IMAGE_PATH }}/pages/ManUtd.png" class="right" style="float: right;" />
 
+## 个人简介：
 
-<div style="color:#FF6633">
-<p>	三尺微命，一介书生。求学于卫星湖畔，黄瓜山下，欲潜心研究智能机器人开发应用之道。然所学颇杂，对诸多方面均有涉猎，喜欢研究一些新技术和关注一些最新的科技~
-</p>
-</div>
-<p>
-平时喜欢整理个人博客，逛逛技术论坛     
-<p>
-<!--喜欢日本，想着如果有机会一定会去日本生活一段时间-->        
-<div style="color:#008B00">
-<p>
-喜欢Spoken English，虽然现在很渣，但一直在努力...        
-</p>
+[Zhu8](http://zhu8.net/)是我的网名，用了应该有14年啦，**Zhu8**，其名取自“[猪八戒](https://zh.wikipedia.org/wiki/%E7%8C%AA%E5%85%AB%E6%88%92 "猪八戒")”，另一说是来自[电视剧](https://zh.wikipedia.org/wiki/%E7%94%B5%E8%A7%86%E5%89%A7 "电视剧")**《[春光灿烂猪八戒](https://zh.wikipedia.org/wiki/%E6%98%A5%E5%85%89%E7%81%BF%E7%83%82%E7%8C%AA%E5%85%AB%E6%88%92 "春光灿烂猪八戒")》**中的***小猪八***。
 
-</div>
-<p>
-同时喜欢老罗和晓松，虽然他俩还撕逼，罗跟谁不撕逼，爱听老罗的单口相声           
-<p>
-I'm a single-dog.  But codes and godgirl are my favorite.  Life is colorful, this website   is a window which used to present the color of my life.       
+来自[江苏](https://zh.wikipedia.org/wiki/%E6%B1%9F%E8%8B%8F "江苏")[金坛](https://zh.wikipedia.org/wiki/%E9%87%91%E5%9D%9B "金坛")，[北漂](https://zh.wikipedia.org/wiki/%E5%8C%97%E6%BC%82 "北漂")三年后，现定居[南京](https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC "南京")。
 
-<p>
+### 关于本站：
 
-<h3> PastTime</h3>   
+* 搭建于[Github](https://github.com/Zhu8)
+* 模板及样式来源[Useful Paradigm](http://usefulparadigm.com/)
+* 折腾开始于2014年7月1日，基本在2014年7月5日完工。
 
-<p>
+## 其他流言：
 
-
-也许你听说过，「业余时间决定人生」；也许你还听说过，「听过很多道理，依然过不好这一生」。书籍、代码、博客、运动、电影、美剧、游戏，这就是我的业余生活。            
-
-
-<div style="color:#708090">
-<p>
-     我的能力就这么多。我若全心工作，则必然忽略生活；我若用心生活，则必然一事无成；我若两者兼顾，又难免平庸
-</p>
-</div>
-<p>
-趁我在还能看得进书写得动代码的年纪，努力一回，看看这平庸的资质究竟能发挥几分。
-
-<p>
-
-<h3> Ps </h3>   
-<p>
-如果你想搭建一个跟我一样的博客，可以看
-<a href="/2017/03/HowToCreateBlog/"> Jekyll+Github个人博客构建之路 </a>
-教程
-
-<p>
-
-有关于博客主题的建议和意见都可以提给我，让我们一起来打造一个精美的主题吧~ 
-
-<p> 
-
-博客源码在 <a target="_blank" href='https://github.com/MengZheK/kangblog.github.io/' target="_blank" >Github</a> 上，你的 Star 是我更新的动力，谢谢~         
-<p>
-
-<div style="color:#FF0000">
-<p>
-模板代码可任意使用，但请保留本站友情链接。 
-&emsp;      
-本站名称：Robotkang &emsp;        
-本站网址：http://www.robotkang.cc &emsp;         
-</p>
-</div>
-
-<h3> 联系方式 </h3>         
-<script>
-	function mousemethod(op,imgid){
-	document.getElementById(imgid).style.display=op;
-	}
-</script>
-
-<p>邮箱：robotkang@foxmail.com &emsp;<a href="#" onmouseover="mousemethod('block','img1')" onmouseout="mousemethod('none','img1')" style="color:#FF4500;text-decoration:none">微信：kang1390305137</a><img id="img1" src="http://omjh2j5h3.bkt.clouddn.com/kangweix.png" style="display:none;"  width="128" height="128">&emsp;
-	<a href="#" onmouseover="mousemethod('block','img2')" onmouseout="mousemethod('none','img2')" style="color:#008B00;text-decoration:none">公众号：创客工坊DIY</a><img id="img2" src="http://omjh2j5h3.bkt.clouddn.com/kanggzh.png" style="display:none;" width="128" height="128" >
- 
-<p>
-<a href="/lovekang/" style="color:#708090"  target="_blank"> <h5>Website Time</h5></a>  
-</p>
-
-
-
+> * 已**女昏**人士；
+> * 如**题图**所示，曼联死忠；
+> * CS **1.5** 死忠，目前仍在某服务器内拥有会员并混迹；
+> * 联系方式请参考我的[主站](http://chenjun.com/contact.html)。

@@ -1,32 +1,46 @@
-# leopard
+# Jekyll-Bootstrap
 
-[leopard](http://robotkang.cc) 是一个简洁的博客模板，如果你也喜欢请 Star ，你的 Star 是我持续更新的动力, 谢谢 😄.
+The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+
+## Usage
+
+For all usage and documentation please see: <http://jekyllbootstrap.com>
+
+## Version
+
+0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+
+**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
+However, the actual API has not changed at all.
+You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
+
+## Contributing 
+
+This repository tracks 2 projects:
+
+- **Jekyll-Bootstrap Framework.**  
+  The framework for which users should clone and build their blog on top of is available in the master branch.
+  
+  To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
+  This is very important as it allows me to accept your pull request without having to publish a public version release.
+  
+  Small, atomic Features, bugs, etc.   
+  Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.   
+  Please rebase as often as possible when working.   
+  Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
+  
+  For Big Features or major API extensions/edits:   
+  This is the one case where I'll accept pull-requests based off the master branch.
+  This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
+  Translation : it might take a bit longer so please be patient! (but sincerely thank you).
+ 
+- **Jekyll-Bootstrap Documentation Website.**    
+  The documentation website at <http://jekyllbootstrap.com> is maintained in the gh-pages branch.
+  Please fork and contribute documentation additions to this branch only.
+
+The master and gh-pages branch do not share the same ancestry. Please treat them as completely separate git repositories!
 
 
-可关注我的公众号进一步了解\(^o^)/~
+## License
 
-![world](http://omjh2j5h3.bkt.clouddn.com/kanggzh.png)
-
-### 使用条件
-
-Jekyll 支持 Mac 、Windows、ubuntu 、Linux 操作系统                     
-Jekyll 需要依赖：Ruby、bundler
-
-#### 获取博客模板
-
-> $ git clone https://github.com/MengZheK/kangblog.github.io.git
-
-或者直接[下载博客](https://github.com/MengZheK/kangblog.github.io/archive/master.zip)   
-
-进kangblog.github.io/ 目录下， 开启本地服务 
-
-> $ bundle exec jekyll server
-
-在浏览器输入 [127.0.0.1:4000](127.0.0.1:4000) ， 就可以看到博客效果了。
-
-### 提示
-如果在部署博客的时候发现问题，可以直接在[message](https://robotkang.cc/liuyan/)里面提问。        
-
-
-#### 感谢   
-本博客在[Jekyll搭建个人博客](http://baixin.io/2016/10/jekyll_tutorials1/)和[Vno Jekyll](https://github.com/onevcat/vno-jekyll)基础上修改的。  
+[MIT](http://opensource.org/licenses/MIT)
